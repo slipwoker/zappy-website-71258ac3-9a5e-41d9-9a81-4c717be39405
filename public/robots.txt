@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skippers-71258ac3.zappy5.app/sitemap.xml

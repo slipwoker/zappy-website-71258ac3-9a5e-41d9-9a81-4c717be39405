@@ -1,0 +1,800 @@
+<!DOCTYPE html><html lang="he" dir="rtl"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ציוד שייט ובטיחות לימאים מקצועי — SKIPPERS</title>
+  <meta name="description" content="מבחר עצום של חגורות הצלה, חליפות סערה לשייט מקצועי, גלגלות, פנדרים, תיקים ימיים ומתנות לשייטים. כל הציוד הימי שאתם צריכים!">
+  <meta name="keywords" content="חגורות הצלה, ציוד שייט ובטיחות לימאים, חליפות סערה לשייט מקצועי, מתנות לשייטים וימאים בישראל, ציוד ימי">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+/* Zappy Attribution Header Styles */
+.zappy-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.04);
+  padding: 16px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 21px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 21px;
+  direction: ltr !important;
+  unicode-bidi: isolate;
+}
+
+    .zappy-header p {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      white-space: nowrap;
+      display: inline-block;
+      vertical-align: baseline;
+      margin-bottom: 0 !important;
+      direction: ltr !important;
+    }
+
+.zappy-header .zappy-link {
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.zappy-header .zappy-link:hover {
+  opacity: 0.7;
+}</style>
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- Mickidum Accessibility Toolbar -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+<!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '71258ac3-9a5e-41d9-9a81-4c717be39405',
+    apiUrl: 'https://api.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+
+    <style id="zappy-mobile-submenu-styles">
+      /* Mobile submenu accordion styles */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu {
+          position: static !important;
+          transform: none !important;
+          box-shadow: none !important;
+          background: transparent !important;
+          margin-top: 0 !important;
+          max-height: 0;
+          overflow: hidden;
+          opacity: 0;
+          visibility: hidden;
+          transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease, padding 0.3s ease;
+          padding: 0 !important;
+          border-radius: 0 !important;
+        }
+        .sub-menu.mobile-expanded {
+          max-height: 500px !important;
+          opacity: 1 !important;
+          visibility: visible !important;
+          padding: 8px 0 8px 16px !important;
+        }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded, html[lang="ar"] .sub-menu.mobile-expanded {
+          padding: 8px 16px 8px 0 !important;
+        }
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu {
+          opacity: 0; visibility: hidden; pointer-events: none;
+        }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded {
+          opacity: 1 !important; visibility: visible !important; pointer-events: auto !important;
+        }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) {
+          display: flex !important; flex-wrap: wrap !important; align-items: center !important;
+        }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a {
+          flex: 1 !important;
+        }
+        .mobile-submenu-toggle {
+          display: flex !important; align-items: center !important; justify-content: center !important;
+          width: 44px !important; height: 44px !important; background: transparent !important;
+          border: none !important; cursor: pointer !important; padding: 0 !important; margin: 0 !important;
+          flex-shrink: 0 !important; -webkit-tap-highlight-color: transparent;
+        }
+        .mobile-submenu-toggle::after {
+          content: '' !important; display: block !important; width: 0 !important; height: 0 !important;
+          border-left: 6px solid transparent !important; border-right: 6px solid transparent !important;
+          border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important;
+        }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu {
+          flex-basis: 100% !important; width: 100% !important;
+        }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; font-size: 14px !important; }
+        .sub-menu a:hover { background-color: transparent !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- Zappy Attribution Header -->
+<div id="zappy-attribution-header" class="zappy-header" style="display: none;">
+  <p>Happily created by&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="container nav-container">
+    <div class="nav-brand">
+      <a href="/" class="logo-link">
+        <img src="/assets/skippers-logo.webp" alt="SKIPPERS - מתנות לסקיפרים- מתנות לימאים" class="logo" />
+      </a>
+    </div>
+    
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+      <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      </svg>
+      <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      </svg>
+    </button>
+    
+    <button class="phone-header-btn" aria-label="התקשרו אלינו">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+    </button>
+    
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/products" class="active">מוצרים</a></li>
+      <li><a href="/about">אודות</a></li>
+    </ul>
+    
+    <div class="nav-cta-container">
+      <li class="nav-cta-item">
+        <a href="/contact" class="nav-cta-btn">צור קשר</a>
+      </li>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>ציוד שייט ובטיחות לימאים - המבחר המקצועי ביותר בישראל</h1>
+    <h3>חגורות הצלה, חליפות סערה, ציוד ימי ומתנות ייחודיות לשייטים וימאים</h3>
+  </div>
+</section>
+
+<section class="products-intro">
+  <div class="container">
+    <div class="intro-text">
+      <p>ב-SKIPPERS אנחנו מציעים את המבחר המקיף ביותר של ציוד שייט ובטיחות לימאים בישראל. כל המוצרים שלנו נבחרו בקפידה על ידי סקיפרים מקצועיים ועומדים בתקני הבטיחות הבינלאומיים המחמירים ביותר. בין אם אתם מחפשים חגורות הצלה לשייט יומיומי, חליפות סערה לשייט מקצועי בתנאים קשים, גלגלות ופנדרים איכותיים, או מתנות מיוחדות לשייטים וימאים בישראל - תמצאו הכל כאן במקום אחד.</p>
+      <p>הקטלוג שלנו כולל מוצרים ממותגים מובילים בעולם, שנבחרו בקפידה על פי קריטריונים של איכות, עמידות ובטיחות. אנחנו מבינים שכל סקיפר וימאי יש לו צרכים ייחודיים, ולכן אנחנו מציעים מגוון רחב של מוצרים בדגמים, גדלים וצבעים שונים. הצוות המקצועי שלנו תמיד זמין לייעוץ אישי ולעזור לכם למצוא את הציוד המושלם בדיוק עבורכם.</p>
+    </div>
+  </div>
+</section>
+
+<section class="product-category">
+  <div class="container">
+    <h2>חגורות הצלה מקצועיות - בטיחות ללא פשרות</h2>
+    <div class="category-content">
+      <div class="category-image">
+        <img data-placeholder="service-1" data-context="Collection of professional orange and yellow life jackets displayed on yacht deck, various sizes and models of marine safety equipment" src="/assets/skippers-service-service-1.webp" alt="מגוון חגורות הצלה מקצועיות לשייט">
+      </div>
+      <div class="category-text">
+        <p>חגורות ההצלה שלנו הן הלב של ציוד הבטיחות הימי. אנחנו מציעים מגוון רחב של חגורות הצלה המאושרות לפי תקני ISO ו-CE, המתאימות לכל סוגי השייט - משייט פנאי קליל ועד שייט מקצועי בים פתוח. כל חגורת הצלה עברה בדיקות קפדניות ומבטיחה ציפה מקסימלית ונוחות מירבית.</p>
+        <p>המבחר כולל חגורות הצלה אוטומטיות המתנפחות במגע עם מים, חגורות הצלה מוצקות לילדים ומבוגרים, וחגורות מיוחדות לשייט מקצועי. כל המוצרים שלנו כוללים רצועות רפלקטיביות לנראות בחושך, שריקה לחירום, וחומרים עמידים בפני קרינת UV וקורוזיה. בין אם אתם מחפשים חגורת הצלה לשימוש אישי או ציוד בטיחות לכל הצוות על היאכטה - תמצאו אצלנו את הפתרון המושלם.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> מאושרות לפי תקני בטיחות בינלאומיים</li>
+          <li><i class="fas fa-check"></i> דגמים אוטומטיים ומוצקים</li>
+          <li><i class="fas fa-check"></i> רצועות רפלקטיביות ושריקת חירום</li>
+          <li><i class="fas fa-check"></i> עמידות בפני קרינת UV ומי מלח</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-category alt-bg">
+  <div class="container">
+    <h2>חליפות סערה לשייט מקצועי - הגנה מקסימלית בתנאי קיצון</h2>
+    <div class="category-content reverse">
+      <div class="category-text">
+        <p>חליפות הסערה שלנו מיועדות לסקיפרים וימאים מקצועיים המתמודדים עם תנאי ים קשים. אנחנו מציעים חליפות מהמותגים המובילים בעולם, המשלבות הגנה מקסימלית מפני רוח, גשם וגלים עם נוחות ותנועתיות מירבית. כל חליפת סערה בנויה משכבות מתקדמות של בדים נושמים ועמידים במים, עם איטומים מלאים בתפרים ובמנעולים.</p>
+        <p>המבחר שלנו כולל חליפות סערה דו-חלקיות (מכנסיים וז'קט) וחד-חלקיות, בגדלים שונים ובצבעים מגוונים. כל החליפות מצוידות בכיסים עמידים במים, רצועות כפפות משולבות, קפוצ'ון מתכוונן, ורצועות רפלקטיביות לבטיחות מירבית. בין אם אתם מתכננים הפלגה ארוכה באוקיינוס או שייט מקצועי במזג אוויר משתנה - חליפות הסערה שלנו יספקו לכם את ההגנה והנוחות שאתם צריכים.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> בדים נושמים ועמידים במים 100%</li>
+          <li><i class="fas fa-check"></i> איטומים מלאים בתפרים ובמנעולים</li>
+          <li><i class="fas fa-check"></i> כיסים עמידים במים וקפוצ'ון מתכוונן</li>
+          <li><i class="fas fa-check"></i> רצועות רפלקטיביות לנראות בחושך</li>
+        </ul>
+      </div>
+      <div class="category-image">
+        <img data-placeholder="service-2" data-context="Professional sailor wearing red storm suit on yacht in rough seas, waterproof gear protecting against wind and waves" src="/assets/skippers-service-service-2.webp" alt="סקיפר לובש חליפת סערה מקצועית בים סוער">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-category">
+  <div class="container">
+    <h2>גלגלות וציוד חבלים - ביצועים מעולים לכל סוגי היאכטות</h2>
+    <div class="category-content">
+      <div class="category-image">
+        <img data-placeholder="service-3" data-context="High-quality marine pulleys and blocks made of stainless steel on yacht deck, sailing rigging equipment" src="/assets/skippers-service-service-3.webp" alt="גלגלות ימיות איכותיות מנירוסטה">
+      </div>
+      <div class="category-text">
+        <p>הגלגלות הימיות שלנו מיוצרות מחומרים איכותיים - נירוסטה, אלומיניום מעובד וחומרים קומפוזיטיים מתקדמים. כל גלגלת מתוכננת לספק ביצועים מעולים, עמידות לאורך זמן ותחזוקה מינימלית. אנחנו מציעים מגוון רחב של גלגלות - מגלגלות בסיסיות לשימוש יומיומי ועד גלגלות מתקדמות עם מיסבים כדוריים לשייט מקצועי.</p>
+        <p>המבחר כולל גלגלות בודדות, כפולות ומשולשות, בגדלים שונים ובעלות נשיאה משתנה. כל הגלגלות שלנו עמידות בפני קורוזיה, מי מלח וקרינת UV. בנוסף לגלגלות, אנחנו מציעים גם חבלים ימיים איכותיים, קליפים, שאקלים וכל האביזרים הנלווים. הצוות שלנו יכול לייעץ לכם בבחירת הגלגלות והציוד המתאים בדיוק למערכת החבלים של היאכטה שלכם.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> עשויות מנירוסטה ואלומיניום איכותי</li>
+          <li><i class="fas fa-check"></i> מיסבים כדוריים לביצועים מעולים</li>
+          <li><i class="fas fa-check"></i> עמידות בפני קורוזיה ומי מלח</li>
+          <li><i class="fas fa-check"></i> מגוון גדלים ועלויות נשיאה</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-category alt-bg">
+  <div class="container">
+    <h2>פנדרים ימיים - הגנה מושלמת ליאכטה שלכם</h2>
+    <div class="category-content reverse">
+      <div class="category-text">
+        <p>הפנדרים שלנו מספקים הגנה אופטימלית ליאכטה שלכם במעגן, בזמן עגינה ליד רציפים, ובמגע עם סירות אחרות. אנחנו מציעים פנדרים איכותיים העשויים מחומרי PVC עמידים במיוחד, עם שסתום מתקדם למילוי ופריקת אוויר מהירה. כל פנדר מתוכנן לספוג זעזועים ולהגן על צבע וגוף היאכטה מפני שריטות ונזקים.</p>
+        <p>המבחר כולל פנדרים בגדלים שונים - מפנדרים קטנים לסירות פנאי ועד פנדרים גדולים ליאכטות יוקרה. הפנדרים זמינים במגוון צבעים (כחול, לבן, אדום, שחור) ובצורות שונות (עגולים, גליליים, ועוד). כל פנדר מגיע עם חבל איכותי לתליה ומתאים לשימוש ממושך בתנאי ים קשים. בנוסף, אנחנו מציעים גם כיסויי פנדרים למראה אלגנטי והגנה נוספת.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> עשויים מ-PVC איכותי ועמיד</li>
+          <li><i class="fas fa-check"></i> שסתום מתקדם למילוי מהיר</li>
+          <li><i class="fas fa-check"></i> מגוון גדלים, צבעים וצורות</li>
+          <li><i class="fas fa-check"></i> כולל חבל תליה איכותי</li>
+        </ul>
+      </div>
+      <div class="category-image">
+        <img data-placeholder="service-4" data-context="Blue and white yacht fenders hanging on boat side at marina, marine protection equipment" src="/assets/skippers-service-service-4.webp" alt="פנדרים כחולים ולבנים תלויים על דופן יאכטה במעגן">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-category">
+  <div class="container">
+    <h2>אופנה וביגוד ימי - סטייל ונוחות לשייט</h2>
+    <div class="category-content">
+      <div class="category-image">
+        <img data-placeholder="service-5" data-context="Stylish nautical fashion collection displayed on yacht, sailing apparel including polo shirts, shorts and maritime casual wear" src="/assets/skippers-service-service-5.webp" alt="קולקציית אופנה ימית מעוצבת על יאכטה">
+      </div>
+      <div class="category-text">
+        <p>קולקציית האופנה הימית שלנו משלבת סטייל, נוחות ופונקציונליות. אנחנו מציעים מגוון רחב של בגדים המתאימים לשייט - מחולצות פולו ימיות וטי-שירטים נושמים, דרך מכנסיים קצרים ארוכים עמידים במים, ועד ז'קטים קלים ונעלי שייט איכותיות. כל הבגדים שלנו עשויים מחומרים איכותיים שמתאימים לסביבה הימית - בדים נושמים, מתייבשים במהירות ועמידים בפני קרינת UV.</p>
+        <p>המבחר כולל גם אביזרי אופנה ימית - כובעים, משקפי שמש, חגורות, וכפפות שייט. כל המוצרים מעוצבים בסגנון ימי אלגנטי עם צבעים קלאסיים (כחול, לבן, אדום) ופסים ימיים. בין אם אתם מחפשים ביגוד לשייט יומיומי או תלבושת אלגנטית לאירוע ימי - תמצאו אצלנו את השילוב המושלם של אופנה ופונקציונליות.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> בדים נושמים ומתייבשים במהירות</li>
+          <li><i class="fas fa-check"></i> הגנה מפני קרינת UV</li>
+          <li><i class="fas fa-check"></i> עיצוב ימי אלגנטי וקלאסי</li>
+          <li><i class="fas fa-check"></i> מגוון גדלים וצבעים</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-category alt-bg">
+  <div class="container">
+    <h2>תיקים ימיים - אחסון בטוח וסטייל לציוד שלכם</h2>
+    <div class="category-content reverse">
+      <div class="category-text">
+        <p>התיקים הימיים שלנו מתוכננים במיוחד לעמוד בתנאי ים קשים. אנחנו מציעים מגוון רחב של תיקים עמידים במים - מתיקי גב ימיים קטנים לשייט יומיומי ועד תיקי נסיעה גדולים להפלגות ארוכות. כל תיק עשוי מחומרים עמידים במים (PVC, ניילון מצופה, או בד ימי מיוחד) עם סגירות אטומות למים ורוכסנים עמידים בפני קורוזיה.</p>
+        <p>המבחר כולל תיקי גב, תיקי כתף, תיקים גליליים (דאפל), ותיקי מזוודה קשיחים. כל התיקים מצוידים ברצועות נוחות ומרופדות, תאים מאורגנים לציוד, וחומרים רפלקטיביים לנראות בחושך. בנוסף, אנחנו מציעים גם תיקים קטנים עמידים במים לאחסון טלפונים, מפתחות ומסמכים חשובים. התיקים שלנו הם השילוב המושלם של פונקציונליות, עמידות וסטייל ימי.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> עמידים במים 100%</li>
+          <li><i class="fas fa-check"></i> סגירות אטומות ורוכסנים עמידים</li>
+          <li><i class="fas fa-check"></i> תאים מאורגנים ורצועות נוחות</li>
+          <li><i class="fas fa-check"></i> מגוון גדלים וסגנונות</li>
+        </ul>
+      </div>
+      <div class="category-image">
+        <img data-placeholder="service-6" data-context="Collection of waterproof sailing bags and dry bags on yacht deck, marine storage equipment in various sizes" src="/assets/skippers-service-service-6.webp" alt="תיקים ימיים עמידים במים בגדלים שונים על סיפון יאכטה">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-category">
+  <div class="container">
+    <h2>ספרות ימית - ידע ומדריכים לסקיפרים</h2>
+    <div class="category-content">
+      <div class="category-image">
+        <img data-placeholder="service-7" data-context="Collection of nautical books, sailing guides and maritime literature on wooden yacht table, marine education materials" src="/assets/skippers-service-service-7.webp" alt="אוסף ספרי שייט ומדריכים ימיים על שולחן יאכטה">
+      </div>
+      <div class="category-text">
+        <p>הספרייה הימית שלנו כוללת מבחר עשיר של ספרות מקצועית לסקיפרים וימאים. אנחנו מציעים מדריכי שייט מקיפים בעברית ובאנגלית, ספרי ניווט ימי, מפות ימיות מעודכנות, וספרי לימוד לקורסי סקיפרות. כל הספרים נבחרו בקפידה על ידי סקיפרים מנוסים ומספקים מידע עדכני, מדויק וחיוני לשייט בטוח.</p>
+        <p>המבחר כולל גם ספרים על תחזוקת יאכטות, מטאורולוגיה ימית, בטיחות בים, וטכניקות שייט מתקדמות. בנוסף, אנחנו מציעים ספרי קריאה ימיים - סיפורי הפלגות מרתקים, ביוגרפיות של ימאים מפורסמים, ורומנים ימיים. בין אם אתם מתכוננים לקורס סקיפרות, מתכננים הפלגה ארוכה, או פשוט אוהבים לקרוא על עולם הים - תמצאו אצלנו את הספר המושלם.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> מדריכי שייט מקצועיים בעברית ובאנגלית</li>
+          <li><i class="fas fa-check"></i> מפות ימיות מעודכנות</li>
+          <li><i class="fas fa-check"></i> ספרי לימוד לקורסי סקיפרות</li>
+          <li><i class="fas fa-check"></i> ספרי קריאה ימיים מרתקים</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-category alt-bg">
+  <div class="container">
+    <h2>מתנות לשייטים וימאים בישראל - מתנות ייחודיות ומעוצבות</h2>
+    <div class="category-content reverse">
+      <div class="category-text">
+        <p>קטגוריית המתנות שלנו מציעה מבחר ייחודי של מתנות מעוצבות במיוחד עבור סקיפרים, ימאים וחובבי שייט. אנחנו מציעים מגוון רחב של מוצרים - מאביזרים ימיים מעוצבים ופריטי דקורציה, דרך ביגוד ואקססוריז ימיים, ועד מתנות אישיות הניתנות להטבעה. כל המתנות שלנו משלבות איכות, עיצוב ייחודי וקשר לעולם הים והשייט.</p>
+        <p>המבחר כולל מתנות לכל אירוע - מתנות ליום הולדת, מתנות לסיום קורס סקיפרות, מתנות לפרישה של ימאי ותיק, ומתנות לחגים. בין המוצרים: שעונים ימיים מעוצבים, תכשיטים עם סמלים ימיים, ספלים וכוסות עם הדפסות ימיות, מחזיקי מפתחות בעיצוב עוגן, וציוד ימי אישי. כל מתנה ארוזה בקפידה ומגיעה עם אריזת מתנה אלגנטית. בין אם אתם מחפשים מתנה לסקיפר קרוב, לימאי בן משפחה, או לחבר שאוהב שייט - תמצאו אצלנו את המתנה המושלמת.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> מתנות ייחודיות ומעוצבות במיוחד</li>
+          <li><i class="fas fa-check"></i> מתאימות לכל אירוע ולכל תקציב</li>
+          <li><i class="fas fa-check"></i> אפשרות להטבעה ואישיות</li>
+          <li><i class="fas fa-check"></i> אריזת מתנה אלגנטית</li>
+        </ul>
+      </div>
+      <div class="category-image">
+        <img data-placeholder="service-8" data-context="Elegant gift boxes with nautical theme, maritime presents for sailors including watches, jewelry and personalized items" src="/assets/skippers-service-service-8.webp" alt="קופסאות מתנה אלגנטיות בעיצוב ימי למתנות לשייטים">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-category">
+  <div class="container">
+    <h2>הפלגות כייף - חוויות ימיות בלתי נשכחות</h2>
+    <div class="category-content">
+      <div class="category-image">
+        <img data-placeholder="service-9" data-context="Group of people enjoying fun sailing trip on yacht at sunset, leisure sailing experience with friends and family" src="/assets/skippers-service-service-9.webp" alt="קבוצת אנשים נהנית מהפלגת כייף על יאכטה בשקיעה">
+      </div>
+      <div class="category-text">
+        <p>מעבר למוצרים הימיים, SKIPPERS מציעה גם הפלגות כייף בלתי נשכחות. אנחנו מארגנים הפלגות פרטיות וקבוצתיות לחוויה ימית מושלמת - בין אם זו הפלגת יום קצרה לאורך החוף, הפלגת שקיעה רומנטית, או הפלגת כייף ארוכה יותר עם עצירות במפרצים יפים. כל ההפלגות שלנו מנוהלות על ידי סקיפרים מקצועיים ומנוסים עם כל האישורים הנדרשים.</p>
+        <p>ההפלגות מתאימות למשפחות, קבוצות חברים, אירועי חברה, וחגיגות מיוחדות. אנחנו מספקים את כל הציוד הנדרש - חגורות הצלה, ציוד בטיחות, מזון ושתייה (לפי בחירה), וכמובן יאכטה מאובזרת ומתוחזקת היטב. בנוסף, אנחנו יכולים להתאים את ההפלגה לצרכים שלכם - הפלגה שקטה ורגועה, הפלגה עם פעילויות ימיות (צלילה, סנורקלינג), או הפלגת מסיבה עם מוזיקה ואווירה מיוחדת. צרו איתנו קשר כדי לתכנן את ההפלגה המושלמת עבורכם.</p>
+        <ul class="features-list">
+          <li><i class="fas fa-check"></i> הפלגות פרטיות וקבוצתיות</li>
+          <li><i class="fas fa-check"></i> סקיפרים מקצועיים ומנוסים</li>
+          <li><i class="fas fa-check"></i> ציוד בטיחות מלא ויאכטה מאובזרת</li>
+          <li><i class="fas fa-check"></i> התאמה אישית לכל אירוע</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="additional-products">
+  <div class="container">
+    <h2>מוצרים נוספים ואביזרים ימיים</h2>
+    <p>מעבר לקטגוריות העיקריות, אנחנו מציעים מגוון רחב של מוצרים ואביזרים ימיים נוספים שישלימו את הציוד שלכם ויהפכו את חוויית השייט שלכם למושלמת. המבחר כולל:</p>
+    <div class="additional-grid">
+      <div class="additional-item">
+        <i class="fas fa-anchor"></i>
+        <h3>עוגנים ושרשראות</h3>
+        <p>עוגנים איכותיים בגדלים שונים, שרשראות עמידות וציוד עגינה מקצועי.</p>
+      </div>
+      <div class="additional-item">
+        <i class="fas fa-lightbulb"></i>
+        <h3>תאורה ימית</h3>
+        <p>פנסים ימיים, תאורת סיפון LED, ופנסי ניווט המאושרים לפי תקנות ימיות.</p>
+      </div>
+      <div class="additional-item">
+        <i class="fas fa-compass"></i>
+        <h3>ציוד ניווט</h3>
+        <p>מצפנים, GPS ימי, מכשירי מזג אוויר, ומפות ימיות דיגיטליות ומודפסות.</p>
+      </div>
+      <div class="additional-item">
+        <i class="fas fa-tools"></i>
+        <h3>כלי עבודה ותחזוקה</h3>
+        <p>ערכות כלים ימיות, חומרי תחזוקה, צבעים ימיים, ומוצרי ניקוי מיוחדים.</p>
+      </div>
+      <div class="additional-item">
+        <i class="fas fa-first-aid"></i>
+        <h3>ערכות עזרה ראשונה</h3>
+        <p>ערכות עזרה ראשונה ימיות מקיפות המאושרות לשימוש בים ובהפלגות ארוכות.</p>
+      </div>
+      <div class="additional-item">
+        <i class="fas fa-utensils"></i>
+        <h3>ציוד מטבח ימי</h3>
+        <p>כלי אוכל ימיים, סירים ומחבתות לשייט, מקררים ניידים, וציוד בישול ימי.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why-buy">
+  <div class="container">
+    <h2>למה לקנות את ציוד השייט שלכם ב-SKIPPERS?</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <h3>מוצרים מאושרים ואיכותיים</h3>
+        <p>כל המוצרים שלנו עומדים בתקני בטיחות בינלאומיים ומגיעים ממותגים מובילים בעולם. אנחנו לא מתפשרים על איכות.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">
+          <i class="fas fa-user-tie"></i>
+        </div>
+        <h3>ייעוץ מקצועי</h3>
+        <p>הצוות שלנו מורכב מסקיפרים וימאים מנוסים שיכולים לייעץ לכם בבחירת הציוד המתאים בדיוק לצרכים שלכם.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">
+          <i class="fas fa-truck"></i>
+        </div>
+        <h3>משלוחים מהירים לכל הארץ</h3>
+        <p>אנחנו מספקים משלוחים מהירים לכל רחבי ישראל כדי שתוכלו לקבל את הציוד שלכם במהירות ולצאת להפלגה.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">
+          <i class="fas fa-undo"></i>
+        </div>
+        <h3>החזרות והחלפות קלות</h3>
+        <p>אנחנו מציעים מדיניות החזרות והחלפות נוחה כדי להבטיח את שביעות רצונכם המלאה.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>מוכנים לרכוש את ציוד השייט המושלם?</h2>
+      <p>צרו איתנו קשר לייעוץ מקצועי ולהזמנת המוצרים שלכם</p>
+      <div class="cta-buttons">
+        <a href="/contact" class="btn-primary">צרו קשר</a>
+        <a href="/about" class="btn-secondary">קראו עוד עלינו</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="https://wa.me/[whatsapp_handle]" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+
+    <!-- Legal Footer -->
+    <footer class="legal-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="all-rights-reserved">
+            <p>© 2025 SKIPPERS - מתנות לסקיפרים- מתנות לימאים. כל הזכויות שמורות.</p>
+          </div>
+          <div class="footer-social"><a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+<a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
+          <div class="footer-legal">
+            <a href="/privacy" aria-label="מדיניות פרטיות">
+              מדיניות פרטיות
+            </a>
+            <span class="separator">|</span>
+            <a href="/accessibility" aria-label="נגישות">
+              נגישות
+            </a>
+            <span class="separator">|</span>
+            <a href="/terms" aria-label="תנאי שימוש">
+              תנאי שימוש
+            </a>
+          </div>
+        </div>
+        <div class="zappy-attribution">
+          <p>נוצר באמצעות&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
+        </div>
+      </div>
+    </footer>
+
+
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '71258ac3-9a5e-41d9-9a81-4c717be39405';
+  
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
+  
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('https://api.zappy5.com/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          // Use dynamic announcement content if available
+          if (data.announcement && data.announcement.html) {
+            header.innerHTML = data.announcement.html;
+          }
+          // Apply fixed positioning styles inline (works for existing sites too)
+          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
+          // Fix child elements that might have position: fixed from old CSS
+          var children = header.querySelectorAll('*');
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.position = 'static';
+          }
+          // Get header height
+          var headerHeight = header.offsetHeight;
+          // Find and fix navbar to be fixed as well (prevents gap at top of page)
+          var navSelectors = ['nav', '.navbar', '.nav'];
+          var navbar = null;
+          for (var j = 0; j < navSelectors.length; j++) {
+            navbar = document.querySelector(navSelectors[j]);
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            navbar = null;
+          }
+          if (navbar) {
+            var navbarHeight = navbar.offsetHeight;
+            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
+            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
+          } else {
+            document.body.style.paddingTop = headerHeight + 'px';
+          }
+        }
+      }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
+    <div data-integration="accessibility:toolbar"></div>
+
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
+        }
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+    })();
+    </script>
+    <script src="/script.js"></script>
+</body></html>
